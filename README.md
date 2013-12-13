@@ -197,7 +197,7 @@ Enjoy!
 
 
 [gutenbergProject]: http://www.gutenberg.org
-[pyndleProject]: 
+[pyndleProject]: https://github.com/asobrien/pyndle
 [CalibreProject]: http://calibre-ebook.com
 [webpyProject]: http://webpy.org
 [pyndleArchive]:
