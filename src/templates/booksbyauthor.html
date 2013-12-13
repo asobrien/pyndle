@@ -1,0 +1,11 @@
+$def with (books, author)
+<a href="/">HOME</a>
+<br>
+<br>
+
+Books by $' & '.join(author.name):
+<br>
+<ul>
+$for book in books:
+    <li id='t$book.id'><emph><a href="/book?id=$book.id">$book.title</a></emph>
+</ul>

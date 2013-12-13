@@ -1,0 +1,21 @@
+$def with (books, comments)
+<a href="/">HOME</a>
+<br>
+
+$for book, comment in zip(books, comments):
+    <p>$book.title by $:authorLink(book.author_sort)</p>
+    <hr>
+    DOWNLOAD:
+    <ul>
+    $for link in ebookLink([book.id]):
+        <li><a href="$link">$fileExt(link)</a></li>
+    </ul>
+    
+    <hr>
+    
+    BOOK DESCRIPTION:
+    <br>
+    $:comment.text
+
+    
+

@@ -1,0 +1,8 @@
+$def with (books)
+<a href="/">HOME</a>
+<br>
+
+<ul>
+$for book in books:
+    <li id='t$book.id'><emph><a href="/book?id=$book.id">$book.title</a></emph> by $:authorLink(book.author_sort) </li>
+</ul>

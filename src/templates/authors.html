@@ -1,0 +1,9 @@
+$def with (authors)
+<a href="/">HOME</a>
+<br>
+
+<ul>
+$for author in authors:
+    <li id='t$author.id'><a href="/booksbyauthor?id=$author.id">$author.name</a></li>
+</ul>
+
