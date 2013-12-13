@@ -200,7 +200,7 @@ Enjoy!
 [pyndleProject]: https://github.com/asobrien/pyndle
 [CalibreProject]: http://calibre-ebook.com
 [webpyProject]: http://webpy.org
-[pyndleArchive]:
+[pyndleArchive]: https://github.com/asobrien/pyndle/archive/v1.0.zip
 [demoCalibreLibrary]: http://bearonis.com/pub/doc/sampleCalLib.zip
 
 
