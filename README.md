@@ -6,7 +6,7 @@ I wrote and small program using the [web.py][webpyProject] framework in order to
 
 While *pyndle* is fully functional, it is spartan---no css, for instance!
 
-##### Check out a live demo of *pyndle* here: [http://pyndle.bearonis.com](http://pyndle.bearonis.com) #####
+##### ~~Check out a live demo of *pyndle* here: [http://pyndle.bearonis.com](http://pyndle.bearonis.com)~~ #####
 
 
 ***********
